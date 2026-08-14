@@ -1,0 +1,15 @@
+Flask
+Flask-CORS
+Werkzeug
+Pillow
+numpy<2
+easyocr
+torch
+torchvision
+rapidfuzz
+python-dotenv
+yolov5
+
+
+
+
