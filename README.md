@@ -49,6 +49,9 @@ cd backend
 
 2. Activate the virtual environment:
 ```bash
+# Create your env
+python -m venv env
+
 # On macOS/Linux
 source ../env/bin/activate
 
