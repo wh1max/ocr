@@ -1,8 +1,8 @@
-# 🚗 AI-Powered Smart Parking System
+# AI-Powered Smart Parking System
 
 A full-stack application that uses AI to automatically recognize and register vehicles using license plate detection.
 
-## 📋 Features
+## Features
 
 - **User Registration**: Register new car owners with their license plate information
 - **AI-Powered Detection**: Automatically detect and recognize returning users using EasyOCR
@@ -10,7 +10,7 @@ A full-stack application that uses AI to automatically recognize and register ve
 - **Dashboard**: View and manage all registered users
 - **Real-time Feedback**: Visual and audio notifications for recognized users
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 ocr/
@@ -32,7 +32,7 @@ ocr/
     └── public/
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ npm start
 
 The frontend will run on `http://localhost:3000`
 
-## 📖 Usage
+## Usage
 
 ### 1. Register a New User
 
@@ -105,8 +105,8 @@ The frontend will run on `http://localhost:3000`
 - Upload a photo containing the license plate
 - The system will automatically detect and check if the user is registered
 - You'll see either:
-  - ✅ "Welcome Back, [Name]!" for recognized users (with sound notification)
-  - ❌ "Unknown User" for unregistered plates
+  - "Welcome Back, [Name]!" for recognized users (with sound notification)
+  - "Unknown User" for unregistered plates
 
 ### 3. View All Users
 
@@ -114,14 +114,14 @@ The frontend will run on `http://localhost:3000`
 - See all registered users in a table
 - Delete users as needed
 
-## 🧠 How It Works
+## How It Works
 
 1. **Registration**: When a new user registers, their photo is stored along with their name and license plate number
 2. **Detection**: When detecting, EasyOCR extracts text from the uploaded image
 3. **Matching**: The detected text is compared against registered license plates using fuzzy matching
 4. **Recognition**: If a match is found (with 80%+ similarity), the user is recognized
 
-## 🔧 Technology Stack
+## Technology Stack
 
 ### Backend
 - **Flask**: Web framework
@@ -135,14 +135,14 @@ The frontend will run on `http://localhost:3000`
 - **Tailwind CSS**: Styling
 - **Axios**: HTTP client
 
-## 📝 API Endpoints
+## API Endpoints
 
 - `POST /register` - Register a new user
 - `POST /detect` - Detect and recognize a license plate
 - `GET /users` - Get all registered users
 - `DELETE /users/<id>` - Delete a user
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend Issues
 
@@ -159,19 +159,12 @@ The frontend will run on `http://localhost:3000`
 1. **Low detection accuracy**: Use clear, well-lit images of license plates
 2. **No plate detected**: Try different angles or lighting conditions
 
-## 🎯 Future Enhancements
 
-- [ ] Support for video streams
-- [ ] Multi-plate detection
-- [ ] Parking history tracking
-- [ ] Automated gate control integration
-- [ ] Mobile app for gate agents
-
-## 📄 License
+## License
 
 MIT License - feel free to use this project for learning and development!
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
