@@ -16,7 +16,10 @@ A full-stack application that uses AI to automatically recognize and register ve
 ocr/
 ├── backend/          # Flask API server
 │   ├── app.py        # Main Flask application
-│   ├── detection.py  # License plate detection logic
+│   ├── utils         # License plate detection logic
+    |    |── detection_yolo5v.py
+    |    |── download_plate_model.py
+    | 
 │   ├── requirements.txt
 │   └── uploads/      # Stored license plate images
 │
