@@ -17,9 +17,9 @@ ocr/
 ├── backend/          # Flask API server
 │   ├── app.py        # Main Flask application
 │   ├── utils         # License plate detection logic
-    |    |── detection_yolo5v.py
-    |    |── download_plate_model.py
-    | 
+|   |    |── detection_yolo5v.py
+|   |    |── download_plate_model.py
+|   | 
 │   ├── requirements.txt
 │   └── uploads/      # Stored license plate images
 │
